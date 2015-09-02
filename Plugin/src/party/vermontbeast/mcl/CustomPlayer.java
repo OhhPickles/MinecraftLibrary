@@ -1,6 +1,7 @@
 package party.vermontbeast.mcl;
 
 import org.bukkit.entity.Player;
+import party.vermontbeast.mcl.methods.SettingsManager;
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -9,7 +10,7 @@ import java.util.UUID;
 /**
  * Created by OhhPickles on 9/2/2015.
  */
-public class CustomPlayer {
+public class CustomPlayer extends SettingsManager {
     Player player;
     public CustomPlayer(Player player) {
         this.player = player;
@@ -41,6 +42,6 @@ public class CustomPlayer {
     }
 
     public String getServerIP() {
-        return "";
+        return getServerAddress();
     }
 }
