@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.UUID;
 
 /**
- * Created by Fred on 9/2/2015.
+ * Created by OhhPickles on 9/2/2015.
  */
 public class CustomPlayer {
     Player player;
